@@ -49,7 +49,7 @@ body {
 
 /* navigation */
 .main-menu {
-  background-color: teal;
+  background-color: #7FA66D;
 }
 
 .main-menu > ul {
@@ -120,7 +120,7 @@ body {
 
 /* content-holder */
 .content-holder {
-  background-color: teal;
+  background-color: #7FA66D;
 }
 
 .content {
@@ -219,7 +219,7 @@ address p {
   font-family: sans-serif;
   padding: 25px;
   text-align: center;
-  background-color: teal;
+  background-color: #7FA66D;
   color: white;
 }
 
