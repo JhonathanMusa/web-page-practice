@@ -35,6 +35,12 @@ body {
   box-shadow: 1px 1px black;
 }
 
+#submit{
+  background-color: #D91E41;
+  color: #fff;
+  border: 1px solid #D91E41;
+}
+
 #search {
   color: rgb(87, 87, 87);
 }
@@ -73,7 +79,7 @@ body {
 }
 
 .main-menu > ul > li > a:hover {
-  background-color: orange;
+  background-color: #e75465;
 }
 
 /* dropdown */
@@ -98,7 +104,8 @@ body {
 }
 
 .drop > li > a:hover {
-  background-color: orange;
+  background-color: #D91E41;
+  color: #ffffff;
 }
 
 /* dropdown menu */
