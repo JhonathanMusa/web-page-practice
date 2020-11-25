@@ -1,130 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/64fe137729.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="flex-container">
+    <header>
+      <div class="search">
         <div class="logo">
           <a href="index.html">
             <img src="css/logo.png" alt="logo" />
           </a>
         </div>
-        <div class="search-input">
-          <form>
-            <input class="search-input__search" type="search" name="s" placeholder="Search Site..." />
-            <input class="search-input__submit" type="submit" value=">" />
-          </form>
-        </div>
-        <nav class="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li>
-              <a href="#">Services</a>
-              <ul class="nav__drop">
-                <li><a href="services/service-one.html">Service One</a></li>
-                <li><a href="services/service-two.html">Service Two</a></li>
-                <li><a href="services/service-three.html">Service Three</a></li>
-              </ul>
-            </li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="contact-us.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section class="banner cycle-slideshow">
-        <img src="css/1.jpg" alt="banner1" />
-        <img src="css/2.jpg" alt="banner2" />
-      </section>
-      <section class="content-holder">
-        <article class="content">
-          <main>
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis, explicabo. Repudiandae quia doloremque quo provident
-              animi nam saepe ex corrupti voluptas totam! Hic ipsa earum
-              eligendi animi unde perferendis maxime. Et officiis sequi quam
-              nulla numquam, perferendis vel quis laboriosam omnis saepe fugiat
-              quia est ut eum illum similique facere?
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis, explicabo. Repudiandae quia doloremque quo provident
-              animi nam saepe ex corrupti voluptas totam! Hic ipsa earum
-              eligendi animi unde perferendis maxime. Et officiis sequi quam
-              nulla numquam, perferendis vel quis laboriosam omnis saepe fugiat
-              quia est ut eum illum similique facere?
-            </p>
-          </main>
-        </article>
-        <aside class="sidebar">
-          <div>
-            <h3>Widget</h3>
-            <ul>
-              <li><a href="#">2018</a></li>
-              <li><a href="#">2019</a></li>
-              <li><a href="#">2020</a></li>
-            </ul>
-          </div>
-        </aside>
-      </section>
-
-      <footer class="footer">
-        <div class="footer__box">
-          <h3>Footer Menu</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <h3>Footer Menu</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <h3>Footer Menu</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <address>
-            <h3>Company Name</h3>
-            <p>#100, Someplace, Somewhere Far, 54654</p>
-            <p>
-              Em:
-              <a href="mailto:contact@someone.com">mailcontact@someone.com</a>
-            </p>
-            <p>Ph: <a href="tel:8888888">8888888</a></p>
-          </address>
-        </div>
-        <div class="clearFix"></div>
-      </footer>
-      <div class="copy">
-        <p><small>Copyright &copy; 2020. All right reserved.</small></p>
+        <form>
+          <input class="search-input__search" type="search" name="s" placeholder="Search Site..." />
+          <button class="search-input__submit" type="submit"><i class="fa fa-search"></i></button>
+        </form>
       </div>
-    </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#">Services</a>
+            <ul class="nav__drop">
+              <li><a href="services/service-one.html">Service One</a></li>
+              <li><a href="services/service-two.html">Service Two</a></li>
+              <li><a href="services/service-three.html">Service Three</a></li>
+            </ul>
+          </li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="banner cycle-slideshow">
+      <img src="css/1.jpg" alt="banner1" />
+      <img src="css/2.jpg" alt="banner2" />
+    </section>
+    <section class="content-holder">
+      <article class="content">
+        <main>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, explicabo. Repudiandae quia doloremque quo provident
+            animi nam saepe ex corrupti voluptas totam! Hic ipsa earum
+            eligendi animi unde perferendis maxime. Et officiis sequi quam
+            nulla numquam, perferendis vel quis laboriosam omnis saepe fugiat
+            quia est ut eum illum similique facere?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, explicabo. Repudiandae quia doloremque quo provident
+            animi nam saepe ex corrupti voluptas totam! Hic ipsa earum
+            eligendi animi unde perferendis maxime. Et officiis sequi quam
+            nulla numquam, perferendis vel quis laboriosam omnis saepe fugiat
+            quia est ut eum illum similique facere?
+          </p>
+        </main>
+      </article>
+      <aside class="sidebar">
+        <div>
+          <h3>Widget</h3>
+          <ul>
+            <li><a href="#">2018</a></li>
+            <li><a href="#">2019</a></li>
+            <li><a href="#">2020</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
-  </body>
+    <footer class="footer">
+      <div class="footer__box">
+        <h3>Footer Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <h3>Footer Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <h3>Footer Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <address>
+          <h3>Company Name</h3>
+          <p>#100, Someplace, Somewhere Far, 54654</p>
+          <p>
+            Em:
+            <a href="mailto:contact@someone.com">mailcontact@someone.com</a>
+          </p>
+          <p>Ph: <a href="tel:8888888">8888888</a></p>
+        </address>
+      </div>
+      <div class="clearFix"></div>
+    </footer>
+    <div class="copy">
+      <p><small>Copyright &copy; 2020. All right reserved.</small></p>
+    </div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</body>
+
 </html>
